@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] tablica = {1,2,3,4,5,6};
-        System.out.println(tablica[2]);
-
+        Motorcycle Alpha = new Motorcycle(1234, "Beta", 1.0, 2005,'m');
+        Alpha.getPrice();
+        Alpha.setPrice(2000);
+        Alpha.getPrice();
 
     }
 }
