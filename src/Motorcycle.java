@@ -1,11 +1,11 @@
 public class Motorcycle {
-    private int price;
+    private double price;
     private String model;
     private double capacity;
     private int productionYear;
     private char size;
 
-    public Motorcycle(int price, String model, double capacity, int productionYear, char size) {
+    public Motorcycle(double price, String model, double capacity, int productionYear, char size) {
         this.price = price;
         this.model = model;
         this.capacity = capacity;
@@ -13,7 +13,7 @@ public class Motorcycle {
         this.size = size;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
@@ -76,6 +76,9 @@ public class Motorcycle {
         else{
             System.out.println("Cena nie jest w przedziale 10000 do 20000");
         }
+    }
+    public double changeToDollar(double dollarCurrency){
+        return  this.price = this.price*dollarCurrency;
     }
 }
 

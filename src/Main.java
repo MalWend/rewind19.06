@@ -12,6 +12,7 @@ public class Main {
         Alpha.checkValueRange();
         Alpha.setPrice(19999);
         Alpha.checkValueRange();
+        Alpha.changeToDollar(2.74);
     }
 
 
