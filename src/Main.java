@@ -6,5 +6,13 @@ public class Main {
         Alpha.setPrice(2000);
         Alpha.getPrice();
 
+        Alpha.printInformation();
+        Alpha.checkIfBMW();
+        Alpha.setModel("BMW");
+        Alpha.checkValueRange();
+        Alpha.setPrice(19999);
+        Alpha.checkValueRange();
     }
+
+
 }
